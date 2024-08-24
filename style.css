@@ -1,0 +1,166 @@
+/* *
+{
+    margin:0;
+    padding :0;
+
+}
+h1
+{
+    top:20%;
+    color:aqua;
+    text-align: center;
+}
+h2{
+    top:20%;
+    color:blue;
+    text-align:center;
+}
+p{
+    margin-left: 10%;
+    top:auto;
+
+}
+h5
+{
+    text-align:center;
+    left:40%;
+}
+.nav 
+{
+    
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+.nav ul li
+{
+font-size: 30%;
+color:azure;
+}
+.nm
+{
+    top:0;
+} */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height:100vh;
+    color:white;
+    
+}
+.name
+{
+    position:absolute;
+    height:100%;
+    width:100%;
+    color:aqua;
+    
+}
+.nm {
+    z-index: 1;
+    text-align: center;
+    color:rgb(0, 255, 85);
+
+}
+.nm h2{
+    z-index: 1;
+    text-align: center;
+    color:blue;
+
+}
+.nm h1{
+    z-index: 1;
+    text-align: center;
+    color:rgb(82, 11, 247);
+
+}
+.nav
+{
+    
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    color:yellow;
+}
+
+.cont-1
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fig
+{
+    
+    text-align:justify;
+    margin-left:20%;
+    
+}
+
+.fig img{
+
+    height:50%;
+    width:70%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:(3,1fr);
+    gap: 10px;
+    background-color: #2196F3;
+    margin-right:20%;
+    
+  }
+  
+  .grid-container > div {
+    background-color: rgba(247, 183, 183, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+  }
+h5{
+    text-align: center;
+}
+body
+{
+    background-color: burlywood;
+    
+}
+.pt h2
+{
+    margin-right:30%;
+    margin-left:30%;
+    color:black;
+    font-family: monospace;
+}
+.vani p
+{
+    align-items: center;
+}
+.last h1
+{
+    font-size:700%;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.last h4
+{
+    font-size:200%;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.last-1
+{
+    display:flex;
+    justify-content: space-around;
+}
+.last-1> :hover
+{
+    opacity: 0.8;
+    transform:scale(2);
+    cursor: pointer;
+
+}
